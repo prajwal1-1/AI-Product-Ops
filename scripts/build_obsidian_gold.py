@@ -363,7 +363,7 @@ def build():
           <i data-lucide="file-text" class="w-3.5 h-3.5 stroke-[1.5]"></i>
           <span>/llms.txt</span>
         </a>
-        <a id="github-repo-link" href="https://github.com/prajwal1-1/composio-100-app-research" target="_blank" rel="noopener noreferrer" class="hidden md:inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-sm border border-[#222225] bg-[#111113] text-[#A1A1A6] hover:text-[#FFFFFF] hover:border-[#3F3F46] transition-colors" title="View GitHub Repository">
+        <a id="github-repo-link" href="https://github.com/prajwal1-1/AI-Product-Ops" target="_blank" rel="noopener noreferrer" class="hidden md:inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-sm border border-[#222225] bg-[#111113] text-[#A1A1A6] hover:text-[#FFFFFF] hover:border-[#3F3F46] transition-colors" title="View GitHub Repository">
           <i data-lucide="github" class="w-3.5 h-3.5 stroke-[1.5]"></i>
           <span>GitHub</span>
         </a>
@@ -926,7 +926,7 @@ def build():
         <a href="#matrix" class="hover:text-[#FFFFFF]">Matrix</a>
         <a href="data.json" class="hover:text-[#FFFFFF]">data.json</a>
         <a href="llms.txt" class="hover:text-[#FFFFFF]">/llms.txt</a>
-        <a id="footer-github-link" href="https://github.com/prajwal1-1/composio-100-app-research" target="_blank" rel="noopener noreferrer" class="hover:text-[#FFFFFF] flex items-center space-x-1">
+        <a id="footer-github-link" href="https://github.com/prajwal1-1/AI-Product-Ops" target="_blank" rel="noopener noreferrer" class="hover:text-[#FFFFFF] flex items-center space-x-1">
           <i data-lucide="github" class="w-3 h-3 stroke-[1.5]"></i>
           <span>GitHub</span>
         </a>
