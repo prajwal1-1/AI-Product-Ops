@@ -360,7 +360,7 @@ def build():
         </span>
       </div>
 
-      <nav class="hidden lg:flex items-center space-x-6 text-xs font-mono text-[#A1A1A6]">
+      <nav class="hidden md:flex items-center space-x-5 text-xs font-mono text-[#A1A1A6]">
         <a href="#patterns" class="hover:text-[#FFFFFF] transition-colors">Patterns</a>
         <a href="#matrix" class="hover:text-[#FFFFFF] transition-colors">100-App Matrix</a>
         <a href="#architecture" class="hover:text-[#FFFFFF] transition-colors">Agent & Proof</a>
