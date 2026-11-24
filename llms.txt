@@ -1,0 +1,60 @@
+# 100-App Agent Toolkit Feasibility Study for Composio
+
+> Comprehensive Product Ops feasibility study, automated verification loops, and buildability triage across 100 SaaS, developer, and infrastructure integrations. Analyzes authentication topologies, API surfaces, access models, developer gating traps, and MCP server availability for Composio agent engineers.
+>
+> **Executive Summary & Ground Truth Metrics**:
+> - **Total Platforms Audited**: 100 platforms across 10 balanced industry categories (10 apps each).
+> - **Immediate Ship Readiness**: 81% buildable today (81 apps in Tiers 1 & 2).
+> - **Tier 1 (Ship Now)**: 61 platforms (61.0%) — Public API docs, self-serve developer access, standard REST/GraphQL.
+> - **Tier 2 (Wrap MCP / CLI)**: 20 platforms (20.0%) — Existing official or community MCP servers or local CLI binaries.
+> - **Tier 3 (Ops / Review Queue)**: 10 platforms (10.0%) — The "Fake Self-Serve" trap: instant sandbox signups, but production mutations require formal App Review, business verification, or developer tokens (e.g. Google Ads, Meta Ads, Amazon SP-API, WhatsApp Business).
+> - **Tier 4 (BD / Sales Wall)**: 9 platforms (9.0%) — Hard enterprise walls requiring formal sales contracts, NDAs, or high-tier annual licensing (e.g. DealCloud, PitchBook, Gladly, NotebookLM Enterprise).
+> - **Composio Catalog Coverage**: 76 platforms currently supported in Composio; 24 net-new platform opportunities, including 15 high-priority Net-New Quick Wins (Tier 1 & Tier 2 buildable today).
+> - **Automated Verification Loop Accuracy**: Measured on a 26-app stratified human audit sample:
+>   - **Pass 1 (Automated Extraction)**: 69.2% (18/26 correct) — Missed sandbox-vs-prod gating; fell into dead links.
+>   - **Pass 2 (HTTP Liveness + Firecrawl + Verifier LLM)**: 96.2% (25/26 correct, +27.0% jump) — Caught 14 dead URLs, corrected 45 metadata fields.
+>   - **Final Audited Truth**: 100.0% (26/26 correct) — Human-in-the-loop overrides for multi-tenant wrappers and enterprise gating.
+
+## Schema Interpretation Guide for Agents
+
+Each object in the dataset adheres to this normalized JSON schema:
+
+- `id` (integer, 1–100): Unique sequential identifier.
+- `name` (string): Canonical platform name.
+- `category` (string): One of 10 categories (10 platforms each):
+  - `CRM and Sales`
+  - `Support and Helpdesk`
+  - `Communications and Messaging`
+  - `Marketing, Ads, Email and Social`
+  - `Ecommerce`
+  - `Data, SEO and Scraping`
+  - `Developer, Infra and Data platforms`
+  - `Productivity and Project Management`
+  - `Finance and Fintech`
+  - `AI, Research and Media-native`
+- `one_liner` (string): Concise summary of platform functionality.
+- `auth_methods` (array of strings): All supported authentication mechanisms (e.g. `["OAuth2", "API Key"]`).
+- `primary_auth` (string): Preferred programmatic authentication for autonomous agents (`OAuth2`, `API Key`, `Bearer Token`, `Basic Auth`, `CLI/Local (No Auth)`, `GCP/IAM`).
+- `access_model` (string): Developer access tier:
+  - `Self-Serve Free`: Instant sign-up, free tier or open developer account.
+  - `Self-Serve Paid/Trial`: Requires credit card or active paid subscription.
+  - `Sandbox Self-Serve / Prod Gated`: Instant test accounts, but production API access requires human compliance review.
+  - `Enterprise / Sales Gated`: No public developer console; requires enterprise sales agreement.
+  - `Open-Source / Local`: Locally run binary or open-source repo with zero SaaS gating.
+- `api_surface` (string): Integration interface (`REST`, `GraphQL`, `REST + GraphQL`, `SDK/CLI Only`, `No Public API`).
+- `mcp_status` (string): Model Context Protocol status (`Official MCP`, `Community MCP`, `None`).
+- `buildability_tier` (string): Strategic implementation triage (`Tier 1: Ship Now`, `Tier 2: Wrap MCP / CLI`, `Tier 3: Ops / Review Queue`, `Tier 4: BD / Sales Wall`).
+- `buildable_today` (boolean): `true` if Tier 1 or Tier 2 (81 platforms total).
+- `main_blocker` (string): Concrete blocker or gating requirement preventing zero-friction execution.
+- `evidence_urls` (array of strings): Valid, canonical `https://` developer portal and API reference links.
+- `in_composio` (boolean): Whether Composio currently provides an official toolkit for this platform.
+- `composio_meta` (object):
+  - `slug` (string or null): Composio toolkit slug.
+  - `managed_oauth` (boolean): Whether Composio manages OAuth refresh flows for this platform.
+  - `instant_supported` (boolean): Whether instant (keyless) execution is supported.
+
+## Core Dataset Files & Links
+
+- [Complete Verified Dataset (JSON)](./data.json): Machine-readable array containing all 100 enriched and verified platform objects.
+- [Executive Case Study & Interactive Matrix (HTML)](./index.html): Self-contained interactive report with ECharts Sankey & Stacked Bar diagrams, Rough.js pipeline schematic, and dynamic search/filter drawers.
+- [Project Documentation & Architecture](./README.md): Engineering walkthrough of the 3-check verification agent loop, deterministic registries, and reproduction commands.

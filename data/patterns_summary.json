@@ -1,0 +1,425 @@
+{
+  "accuracy_progression": {
+    "audited_sample_size": 26,
+    "pass1_accuracy": "69.2%",
+    "pass1_correct": 18,
+    "pass2_accuracy": "96.2%",
+    "pass2_correct": 25,
+    "final_verified_accuracy": "100.0%",
+    "final_verified_correct": 26,
+    "error_breakdown": {
+      "sandbox_vs_prod_gating": 7,
+      "broken_urls_remediated": 14,
+      "cli_misclassified_as_rest": 2,
+      "third_party_wrapper_ambiguity": 1,
+      "enterprise_gate_nuances": 3
+    }
+  },
+  "headline_insights": [
+    "OAuth2 & API Key account for 92% of all SaaS APIs (API Key: 46%, OAuth2: 44%).",
+    "71% of apps are buildable today (Tier 1 Instant: 48%, Tier 2 Wrap MCP/CLI: 23%).",
+    "Top blocker is 'Fake Self-Serve': open developer sandboxes that gate production mutations behind App Review or Partner Verification (e.g., Meta, Google, LinkedIn Ads, Amazon SP-API).",
+    "Developer Platforms & Productivity have 100% self-serve buildability, while Finance & Enterprise CRM have the highest BD/sales barriers."
+  ],
+  "macro_metrics": {
+    "buildability_tiers": {
+      "Tier 1: Ship Now": 61,
+      "Tier 2: Wrap MCP / CLI": 20,
+      "Tier 4: BD / Sales Wall": 9,
+      "Tier 3: Ops / Review Queue": 10
+    },
+    "primary_auth": {
+      "OAuth2": 28,
+      "API Key": 43,
+      "Bearer Token": 20,
+      "Basic Auth": 6,
+      "CLI/Local (No Auth)": 2,
+      "GCP/IAM": 1
+    },
+    "access_models": {
+      "Self-Serve Free": 51,
+      "Open-Source / Local": 5,
+      "Self-Serve Paid/Trial": 24,
+      "Enterprise / Sales Gated": 11,
+      "Sandbox Self-Serve / Prod Gated": 9
+    },
+    "api_surfaces": {
+      "REST + GraphQL": 5,
+      "REST": 86,
+      "GraphQL": 5,
+      "SDK/CLI Only": 3,
+      "No Public API": 1
+    },
+    "mcp_statuses": {
+      "Official MCP": 18,
+      "Community MCP": 39,
+      "None": 43
+    },
+    "top_5_blockers": [
+      [
+        "Requires licensed DealCloud enterprise subscription and client admin enablement.",
+        1
+      ],
+      [
+        "Requires paid Gladly enterprise tenant and admin API enablement.",
+        1
+      ],
+      [
+        "Requires Meta Business Verification and phone number registration approval before live messaging.",
+        1
+      ],
+      [
+        "Requires approved Developer Token from Google; sandbox test accounts are free but production API access is reviewed.",
+        1
+      ],
+      [
+        "Marketing API requires Meta Business Verification and App Review before live campaigns can be mutated.",
+        1
+      ]
+    ]
+  },
+  "category_tier_matrix": {
+    "CRM and Sales": {
+      "Tier 1: Ship Now": 7,
+      "Tier 2: Wrap MCP / CLI": 2,
+      "Tier 4: BD / Sales Wall": 1
+    },
+    "Support and Helpdesk": {
+      "Tier 1: Ship Now": 8,
+      "Tier 2: Wrap MCP / CLI": 1,
+      "Tier 4: BD / Sales Wall": 1
+    },
+    "Communications and Messaging": {
+      "Tier 1: Ship Now": 7,
+      "Tier 2: Wrap MCP / CLI": 2,
+      "Tier 3: Ops / Review Queue": 1
+    },
+    "Marketing, Ads, Email and Social": {
+      "Tier 3: Ops / Review Queue": 5,
+      "Tier 2: Wrap MCP / CLI": 2,
+      "Tier 1: Ship Now": 3
+    },
+    "Ecommerce": {
+      "Tier 1: Ship Now": 6,
+      "Tier 4: BD / Sales Wall": 2,
+      "Tier 2: Wrap MCP / CLI": 1,
+      "Tier 3: Ops / Review Queue": 1
+    },
+    "Data, SEO and Scraping": {
+      "Tier 1: Ship Now": 5,
+      "Tier 2: Wrap MCP / CLI": 4,
+      "Tier 4: BD / Sales Wall": 1
+    },
+    "Developer, Infra and Data platforms": {
+      "Tier 1: Ship Now": 10
+    },
+    "Productivity and Project Management": {
+      "Tier 1: Ship Now": 10
+    },
+    "Finance and Fintech": {
+      "Tier 1: Ship Now": 3,
+      "Tier 2: Wrap MCP / CLI": 4,
+      "Tier 4: BD / Sales Wall": 3
+    },
+    "AI, Research and Media-native": {
+      "Tier 4: BD / Sales Wall": 1,
+      "Tier 3: Ops / Review Queue": 3,
+      "Tier 1: Ship Now": 2,
+      "Tier 2: Wrap MCP / CLI": 4
+    }
+  },
+  "category_access_matrix": {
+    "CRM and Sales": {
+      "Self-Serve Free": 5,
+      "Open-Source / Local": 1,
+      "Self-Serve Paid/Trial": 3,
+      "Enterprise / Sales Gated": 1
+    },
+    "Support and Helpdesk": {
+      "Self-Serve Paid/Trial": 6,
+      "Self-Serve Free": 3,
+      "Enterprise / Sales Gated": 1
+    },
+    "Communications and Messaging": {
+      "Self-Serve Free": 8,
+      "Sandbox Self-Serve / Prod Gated": 1,
+      "Self-Serve Paid/Trial": 1
+    },
+    "Marketing, Ads, Email and Social": {
+      "Sandbox Self-Serve / Prod Gated": 5,
+      "Self-Serve Paid/Trial": 1,
+      "Self-Serve Free": 4
+    },
+    "Ecommerce": {
+      "Self-Serve Free": 3,
+      "Open-Source / Local": 2,
+      "Self-Serve Paid/Trial": 2,
+      "Enterprise / Sales Gated": 2,
+      "Sandbox Self-Serve / Prod Gated": 1
+    },
+    "Data, SEO and Scraping": {
+      "Self-Serve Free": 5,
+      "Self-Serve Paid/Trial": 3,
+      "Open-Source / Local": 1,
+      "Enterprise / Sales Gated": 1
+    },
+    "Developer, Infra and Data platforms": {
+      "Self-Serve Free": 8,
+      "Self-Serve Paid/Trial": 2
+    },
+    "Productivity and Project Management": {
+      "Self-Serve Free": 8,
+      "Self-Serve Paid/Trial": 2
+    },
+    "Finance and Fintech": {
+      "Self-Serve Free": 3,
+      "Sandbox Self-Serve / Prod Gated": 2,
+      "Enterprise / Sales Gated": 3,
+      "Self-Serve Paid/Trial": 2
+    },
+    "AI, Research and Media-native": {
+      "Enterprise / Sales Gated": 3,
+      "Self-Serve Free": 4,
+      "Self-Serve Paid/Trial": 2,
+      "Open-Source / Local": 1
+    }
+  },
+  "quick_wins_count": 81,
+  "outreach_ops_count": 19,
+  "quick_wins_sample": [
+    {
+      "id": 1,
+      "name": "Salesforce",
+      "category": "CRM and Sales",
+      "tier": "Tier 1: Ship Now",
+      "access_model": "Self-Serve Free",
+      "primary_auth": "OAuth2",
+      "mcp_status": "Official MCP",
+      "blocker": "None"
+    },
+    {
+      "id": 2,
+      "name": "HubSpot",
+      "category": "CRM and Sales",
+      "tier": "Tier 1: Ship Now",
+      "access_model": "Self-Serve Free",
+      "primary_auth": "OAuth2",
+      "mcp_status": "Community MCP",
+      "blocker": "None"
+    },
+    {
+      "id": 3,
+      "name": "Pipedrive",
+      "category": "CRM and Sales",
+      "tier": "Tier 1: Ship Now",
+      "access_model": "Self-Serve Free",
+      "primary_auth": "OAuth2",
+      "mcp_status": "Community MCP",
+      "blocker": "None"
+    },
+    {
+      "id": 4,
+      "name": "Attio",
+      "category": "CRM and Sales",
+      "tier": "Tier 1: Ship Now",
+      "access_model": "Self-Serve Free",
+      "primary_auth": "API Key",
+      "mcp_status": "None",
+      "blocker": "None"
+    },
+    {
+      "id": 5,
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "tier": "Tier 1: Ship Now",
+      "access_model": "Open-Source / Local",
+      "primary_auth": "API Key",
+      "mcp_status": "None",
+      "blocker": "None"
+    },
+    {
+      "id": 6,
+      "name": "Podio",
+      "category": "CRM and Sales",
+      "tier": "Tier 2: Wrap MCP / CLI",
+      "access_model": "Self-Serve Paid/Trial",
+      "primary_auth": "OAuth2",
+      "mcp_status": "None",
+      "blocker": "None"
+    },
+    {
+      "id": 7,
+      "name": "Zoho CRM",
+      "category": "CRM and Sales",
+      "tier": "Tier 1: Ship Now",
+      "access_model": "Self-Serve Free",
+      "primary_auth": "OAuth2",
+      "mcp_status": "Community MCP",
+      "blocker": "None"
+    },
+    {
+      "id": 8,
+      "name": "Close",
+      "category": "CRM and Sales",
+      "tier": "Tier 1: Ship Now",
+      "access_model": "Self-Serve Paid/Trial",
+      "primary_auth": "API Key",
+      "mcp_status": "Community MCP",
+      "blocker": "None"
+    },
+    {
+      "id": 9,
+      "name": "Copper",
+      "category": "CRM and Sales",
+      "tier": "Tier 2: Wrap MCP / CLI",
+      "access_model": "Self-Serve Paid/Trial",
+      "primary_auth": "API Key",
+      "mcp_status": "None",
+      "blocker": "None"
+    },
+    {
+      "id": 11,
+      "name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "tier": "Tier 1: Ship Now",
+      "access_model": "Self-Serve Paid/Trial",
+      "primary_auth": "OAuth2",
+      "mcp_status": "Community MCP",
+      "blocker": "None"
+    }
+  ],
+  "outreach_ops_sample": [
+    {
+      "id": 10,
+      "name": "DealCloud",
+      "category": "CRM and Sales",
+      "tier": "Tier 4: BD / Sales Wall",
+      "access_model": "Enterprise / Sales Gated",
+      "primary_auth": "OAuth2",
+      "mcp_status": "None",
+      "blocker": "Requires licensed DealCloud enterprise subscription and client admin enablement."
+    },
+    {
+      "id": 20,
+      "name": "Gladly",
+      "category": "Support and Helpdesk",
+      "tier": "Tier 3: Ops / Review Queue",
+      "access_model": "Enterprise / Sales Gated",
+      "primary_auth": "Basic Auth",
+      "mcp_status": "None",
+      "blocker": "Requires paid Gladly enterprise tenant and admin API enablement."
+    },
+    {
+      "id": 28,
+      "name": "WhatsApp Business",
+      "category": "Communications and Messaging",
+      "tier": "Tier 3: Ops / Review Queue",
+      "access_model": "Sandbox Self-Serve / Prod Gated",
+      "primary_auth": "Bearer Token",
+      "mcp_status": "Community MCP",
+      "blocker": "Requires Meta Business Verification and phone number registration approval before live messaging."
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "tier": "Tier 3: Ops / Review Queue",
+      "access_model": "Sandbox Self-Serve / Prod Gated",
+      "primary_auth": "OAuth2",
+      "mcp_status": "Community MCP",
+      "blocker": "Requires approved Developer Token from Google; sandbox test accounts are free but production API access is reviewed."
+    },
+    {
+      "id": 32,
+      "name": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "tier": "Tier 3: Ops / Review Queue",
+      "access_model": "Sandbox Self-Serve / Prod Gated",
+      "primary_auth": "OAuth2",
+      "mcp_status": "Community MCP",
+      "blocker": "Marketing API requires Meta Business Verification and App Review before live campaigns can be mutated."
+    },
+    {
+      "id": 33,
+      "name": "LinkedIn Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "tier": "Tier 3: Ops / Review Queue",
+      "access_model": "Sandbox Self-Serve / Prod Gated",
+      "primary_auth": "OAuth2",
+      "mcp_status": "None",
+      "blocker": "Marketing Developer Platform access requires formal partner application approval."
+    },
+    {
+      "id": 38,
+      "name": "Pinterest",
+      "category": "Marketing, Ads, Email and Social",
+      "tier": "Tier 3: Ops / Review Queue",
+      "access_model": "Sandbox Self-Serve / Prod Gated",
+      "primary_auth": "OAuth2",
+      "mcp_status": "None",
+      "blocker": "Pinterest Ads API requires formal developer application and business account approval."
+    },
+    {
+      "id": 39,
+      "name": "Threads (Meta)",
+      "category": "Marketing, Ads, Email and Social",
+      "tier": "Tier 3: Ops / Review Queue",
+      "access_model": "Sandbox Self-Serve / Prod Gated",
+      "primary_auth": "OAuth2",
+      "mcp_status": "None",
+      "blocker": "Threads API requires Meta developer registration and App Review for public publishing."
+    },
+    {
+      "id": 44,
+      "name": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "tier": "Tier 4: BD / Sales Wall",
+      "access_model": "Enterprise / Sales Gated",
+      "primary_auth": "OAuth2",
+      "mcp_status": "None",
+      "blocker": "Enterprise platform requiring Commerce Cloud contract and Account Manager setup."
+    },
+    {
+      "id": 49,
+      "name": "Amazon Selling Partner",
+      "category": "Ecommerce",
+      "tier": "Tier 3: Ops / Review Queue",
+      "access_model": "Sandbox Self-Serve / Prod Gated",
+      "primary_auth": "OAuth2",
+      "mcp_status": "None",
+      "blocker": "SP-API requires Developer Profile registration, business identity verification, and security review."
+    }
+  ],
+  "composio_catalog_comparison": {
+    "total_apps": 100,
+    "already_in_composio_count": 76,
+    "already_in_composio_pct": "76%",
+    "net_new_apps_count": 24,
+    "net_new_apps_pct": "24%",
+    "net_new_quick_wins_count": 15,
+    "net_new_quick_wins_sample": [
+      "LiveAgent",
+      "Vonage",
+      "GoHighLevel",
+      "systeme.io",
+      "WooCommerce",
+      "Magento (Adobe Commerce)",
+      "Squarespace",
+      "Ecwid",
+      "SE Ranking",
+      "Sherlock"
+    ],
+    "net_new_all_sample": [
+      "DealCloud",
+      "LiveAgent",
+      "Gladly",
+      "Vonage",
+      "GoHighLevel",
+      "systeme.io",
+      "WooCommerce",
+      "Salesforce Commerce Cloud",
+      "Magento (Adobe Commerce)",
+      "Squarespace"
+    ]
+  }
+}

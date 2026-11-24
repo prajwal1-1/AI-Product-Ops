@@ -1,0 +1,3263 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "one_liner": "Enterprise CRM platform for sales, marketing, and customer service.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST + GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.salesforce.com/docs/apis"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://salesforce.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "salesforce",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.salesforce.com/docs/apis",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://salesforce.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "one_liner": "Inbound marketing, sales, and customer service platform.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.hubspot.com/docs/api/overview"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://hubspot.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "hubspot",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.hubspot.com/docs/api/overview",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://hubspot.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "category": "CRM and Sales",
+    "one_liner": "Sales pipeline and CRM software for deal tracking.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.pipedrive.com/docs/api/v1"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://pipedrive.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "pipedrive",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.pipedrive.com/docs/api/v1",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://pipedrive.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "category": "CRM and Sales",
+    "one_liner": "Modern customizable data-driven CRM for tech teams.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.attio.com/reference"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://attio.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "attio",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.attio.com/reference",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://attio.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 5,
+    "name": "Twenty",
+    "category": "CRM and Sales",
+    "one_liner": "Open-source CRM built as an alternative to Salesforce.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Open-Source / Local",
+    "api_surface": "GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.twenty.com/developer/graphql-api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://twenty.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "twenty",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.twenty.com/developer/graphql-api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://twenty.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 6,
+    "name": "Podio",
+    "category": "CRM and Sales",
+    "one_liner": "Customizable work management and collaboration platform by Citrix.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://podio.com/developer/api-overview"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://podio.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "podio",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://podio.com/developer/api-overview",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://podio.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "one_liner": "Omnichannel customer relationship management platform.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://www.zoho.com/crm/developer/docs/api/v2/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://zoho.com/crm and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "zoho",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v2/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://zoho.com/crm and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 8,
+    "name": "Close",
+    "category": "CRM and Sales",
+    "one_liner": "Inside sales CRM with built-in calling and email automation.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.close.com/resources/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://close.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "close",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.close.com/resources/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://close.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 9,
+    "name": "Copper",
+    "category": "CRM and Sales",
+    "one_liner": "Google Workspace native CRM for relationship tracking.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.copper.com/overview/getting-started"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://copper.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "copper",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.copper.com/overview/getting-started",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://copper.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "one_liner": "Private capital markets CRM and deal management platform.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Requires licensed DealCloud enterprise subscription and client admin enablement.",
+    "evidence_urls": [
+      "https://api.docs.dealcloud.com/docs/getting-started"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://api.docs.dealcloud.com/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://api.docs.dealcloud.com/docs/getting-started",
+    "blocker_rationale": "Requires licensed DealCloud enterprise subscription and client admin enablement.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://api.docs.dealcloud.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 11,
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Customer service and support ticket management platform.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Basic Auth"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.zendesk.com/api-reference/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://zendesk.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "zendesk",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.zendesk.com/api-reference/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://zendesk.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "one_liner": "AI-first customer service platform and messaging inbox.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://intercom.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "intercom",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://intercom.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 13,
+    "name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Cloud-based customer support software and ticketing system.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.freshdesk.com/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://freshdesk.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "freshdesk",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.freshdesk.com/api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://freshdesk.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "one_liner": "Customer communication hub consolidating emails and messages.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://dev.frontapp.com/reference/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://front.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "front",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://dev.frontapp.com/reference/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://front.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "category": "Support and Helpdesk",
+    "one_liner": "B2B customer support platform integrating with Slack and Teams.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.usepylon.com/pylon-docs/api-reference/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://usepylon.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "pylon_mcp",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.usepylon.com/pylon-docs/api-reference/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://usepylon.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 16,
+    "name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "one_liner": "Omnichannel live chat and help desk software.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://support.liveagent.com/041697-LiveAgent-REST-API-v3"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://liveagent.com/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://support.liveagent.com/041697-LiveAgent-REST-API-v3",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://liveagent.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 17,
+    "name": "Plain",
+    "category": "Support and Helpdesk",
+    "one_liner": "Developer-first support platform built for B2B engineering teams.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://plain.com/docs/graphql/overview"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://plain.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "plain",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://plain.com/docs/graphql/overview",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://plain.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "one_liner": "Customer service platform with shared inboxes and knowledge base.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.helpscout.com/mailbox-api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://helpscout.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "help_scout",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.helpscout.com/mailbox-api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://helpscout.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 19,
+    "name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "one_liner": "E-commerce customer service and helpdesk platform.",
+    "auth_methods": [
+      "API Key",
+      "Basic Auth"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.gorgias.com/reference/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://gorgias.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "gorgias",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.gorgias.com/reference/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://gorgias.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 20,
+    "name": "Gladly",
+    "category": "Support and Helpdesk",
+    "one_liner": "Customer service platform focused on radically personal customer conversations.",
+    "auth_methods": [
+      "Basic Auth"
+    ],
+    "primary_auth": "Basic Auth",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Requires bespoke Gladly enterprise licensing contract and customer tenant admin API enablement.",
+    "evidence_urls": [
+      "https://developer.gladly.com/rest/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://gladly.com/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.gladly.com/rest/",
+    "blocker_rationale": "Requires bespoke Gladly enterprise licensing contract and customer tenant admin API enablement.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://gladly.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 21,
+    "name": "Slack",
+    "category": "Communications and Messaging",
+    "one_liner": "Productivity messaging platform for team collaboration.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://api.slack.com/methods"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://slack.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "slack",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://api.slack.com/methods",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://slack.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 22,
+    "name": "Twilio",
+    "category": "Communications and Messaging",
+    "one_liner": "Cloud communications platform for programmable SMS, voice, and video.",
+    "auth_methods": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "primary_auth": "Basic Auth",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://www.twilio.com/docs/usage/api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://twilio.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "twilio",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://www.twilio.com/docs/usage/api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://twilio.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "one_liner": "Team chat and business communication software.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://www.zoho.com/cliq/help/restapi/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://zoho.com/cliq and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "zoho_cliq",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://www.zoho.com/cliq/help/restapi/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://zoho.com/cliq and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "one_liner": "Next-generation collaboration suite uniting chat, docs, and calendar.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://open.larksuite.com/document/home/index"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://open.larksuite.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "lark",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://open.larksuite.com/document/home/index",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://open.larksuite.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 25,
+    "name": "Pumble",
+    "category": "Communications and Messaging",
+    "one_liner": "Free team chat and messaging app for team communication.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://pumble.com/help/integrations/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://pumble.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "pumble",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://pumble.com/help/integrations/api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://pumble.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 26,
+    "name": "Discord",
+    "category": "Communications and Messaging",
+    "one_liner": "Voice, video, and text communication service for communities.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://discord.com/developers/docs/intro"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://discord.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "discord",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://discord.com/developers/docs/intro",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://discord.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 27,
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "one_liner": "Cloud-based mobile and desktop messaging app with API.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://core.telegram.org/bots/api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://core.telegram.org/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "telegram",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://core.telegram.org/bots/api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://core.telegram.org/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "one_liner": "Business messaging platform for customer engagement.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "Requires Meta Business Verification and phone number registration approval before live messaging.",
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/whatsapp/cloud-api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.facebook.com/docs/whatsapp and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "whatsapp",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+    "blocker_rationale": "Requires Meta Business Verification and phone number registration approval before live messaging.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.facebook.com/docs/whatsapp and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "category": "Communications and Messaging",
+    "one_liner": "Cloud-based call center and phone system for teams.",
+    "auth_methods": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "primary_auth": "Basic Auth",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.aircall.io/api-references/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://aircall.io/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "aircall",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.aircall.io/api-references/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://aircall.io/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 30,
+    "name": "Vonage",
+    "category": "Communications and Messaging",
+    "one_liner": "Communications APIs for SMS, voice, video, and messaging.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.vonage.com/en/api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.vonage.com/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.vonage.com/en/api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.vonage.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Online advertising platform developed by Google.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "Requires approved Developer Token from Google; sandbox test accounts are free but production API access is reviewed.",
+    "evidence_urls": [
+      "https://developers.google.com/google-ads/api/docs/start"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.google.com/google-ads and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "googleads",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.google.com/google-ads/api/docs/start",
+    "blocker_rationale": "Requires approved Developer Token from Google; sandbox test accounts are free but production API access is reviewed.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.google.com/google-ads and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 32,
+    "name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Digital advertising platform for Facebook and Instagram.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "Marketing API requires Meta Business Verification and App Review before live campaigns can be mutated.",
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/marketing-apis"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.facebook.com/docs/marketing-apis and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "metaads",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.facebook.com/docs/marketing-apis",
+    "blocker_rationale": "Marketing API requires Meta Business Verification and App Review before live campaigns can be mutated.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.facebook.com/docs/marketing-apis and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Targeted B2B advertising platform on LinkedIn network.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "Marketing Developer Platform access requires formal partner application approval.",
+    "evidence_urls": [
+      "https://learn.microsoft.com/en-us/linkedin/marketing/overview"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://learn.microsoft.com/linkedin/marketing and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "linkedin",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://learn.microsoft.com/en-us/linkedin/marketing/overview",
+    "blocker_rationale": "Marketing Developer Platform access requires formal partner application approval.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://learn.microsoft.com/linkedin/marketing and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 34,
+    "name": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "All-in-one sales and marketing platform for marketing agencies.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://highlevel.stoplight.io/docs/integrations/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://highlevel.stoplight.io/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://highlevel.stoplight.io/docs/integrations/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://highlevel.stoplight.io/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Email marketing automation and newsletter delivery platform.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://mailchimp.com/developer/marketing/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://mailchimp.com/developer and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "mailchimp",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://mailchimp.com/developer/marketing/api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://mailchimp.com/developer and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Intelligent marketing automation platform for ecommerce brands.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.klaviyo.com/en/reference/api_overview"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.klaviyo.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "klaviyo",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.klaviyo.com/en/reference/api_overview",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.klaviyo.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 37,
+    "name": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "All-in-one marketing platform and sales funnel builder.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Narrow",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://systeme.io/api-documentation"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://systeme.io/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://systeme.io/api-documentation",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://systeme.io/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 38,
+    "name": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Visual discovery engine for sharing ideas and shopping ads.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "Pinterest Ads API requires formal developer application and business account approval.",
+    "evidence_urls": [
+      "https://developers.pinterest.com/docs/api/v5/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.pinterest.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "pinterest",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.pinterest.com/docs/api/v5/",
+    "blocker_rationale": "Pinterest Ads API requires formal developer application and business account approval.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.pinterest.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 39,
+    "name": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Text-based social sharing platform by Instagram.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "Threads API requires Meta developer registration and App Review for public publishing.",
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/threads"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.facebook.com/docs/threads and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "threads",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.facebook.com/docs/threads",
+    "blocker_rationale": "Threads API requires Meta developer registration and App Review for public publishing.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.facebook.com/docs/threads and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Cloud-based customer communication platform for transactional email.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.sendgrid.com/api-reference/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://sendgrid.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "sendgrid",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.sendgrid.com/api-reference/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://sendgrid.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "one_liner": "E-commerce platform for online stores and retail point-of-sale systems.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://shopify.dev/docs/api/admin-rest"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing https://shopify.dev and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "shopify",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://shopify.dev/docs/api/admin-rest",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing https://shopify.dev and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 42,
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "one_liner": "Open-source ecommerce plugin for WordPress.",
+    "auth_methods": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Open-Source / Local",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://woocommerce.com/document/woocommerce-rest-api and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://woocommerce.com/document/woocommerce-rest-api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 43,
+    "name": "BigCommerce",
+    "category": "Ecommerce",
+    "one_liner": "Open SaaS ecommerce platform for mid-market and enterprise brands.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST + GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.bigcommerce.com/docs/rest-management"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.bigcommerce.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "bigcommerce",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.bigcommerce.com/docs/rest-management",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.bigcommerce.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "one_liner": "B2B and B2C ecommerce platform powering enterprise stores.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Enterprise platform requiring Commerce Cloud contract and Account Manager setup.",
+    "evidence_urls": [
+      "https://developer.salesforce.com/docs/commerce/commerce-api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.salesforce.com/docs/commerce and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.salesforce.com/docs/commerce/commerce-api",
+    "blocker_rationale": "Enterprise platform requiring Commerce Cloud contract and Account Manager setup.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.salesforce.com/docs/commerce and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "one_liner": "Flexible ecommerce platform with open source roots.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Open-Source / Local",
+    "api_surface": "REST + GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.adobe.com/commerce/webapi/rest/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.adobe.com/commerce and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.adobe.com/commerce/webapi/rest/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.adobe.com/commerce and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 46,
+    "name": "Squarespace",
+    "category": "Ecommerce",
+    "one_liner": "Website building and ecommerce platform with developer APIs.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.squarespace.com/commerce-apis/overview"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.squarespace.com/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.squarespace.com/commerce-apis/overview",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.squarespace.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 47,
+    "name": "Ecwid",
+    "category": "Ecommerce",
+    "one_liner": "Ecommerce shopping cart widget embeddable into any site.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://api-docs.ecwid.com/reference/overview"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://api-docs.ecwid.com/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://api-docs.ecwid.com/reference/overview",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://api-docs.ecwid.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 48,
+    "name": "Gumroad",
+    "category": "Ecommerce",
+    "one_liner": "Self-publishing platform for digital creators and physical goods.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://gumroad.com/api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://gumroad.com/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "gumroad",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://gumroad.com/api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://gumroad.com/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 49,
+    "name": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "one_liner": "APIs for Amazon sellers and vendors to manage catalog and orders.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "SP-API requires Developer Profile registration, business identity verification, and security review.",
+    "evidence_urls": [
+      "https://developer-docs.amazon.com/sp-api/docs/welcome"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer-docs.amazon.com/sp-api and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer-docs.amazon.com/sp-api/docs/welcome",
+    "blocker_rationale": "SP-API requires Developer Profile registration, business identity verification, and security review.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer-docs.amazon.com/sp-api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "category": "Ecommerce",
+    "one_liner": "Monetization and marketplace platform for creators and athletes.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Narrow",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "No public self-serve developer portal; creator marketplace.",
+    "evidence_urls": [
+      "https://fanbasis.com/api-docs"
+    ],
+    "pass1_notes": "Flagged for human review: fanbasis: Niche creator monetization marketplace without public developer documentation or self-serve portal.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://fanbasis.com/api-docs",
+    "blocker_rationale": "No public self-serve developer portal; creator marketplace.",
+    "verification_notes": "Flagged for human review: fanbasis: Niche creator monetization marketplace without public developer documentation or self-serve portal.",
+    "verification_status": "Audited & Overridden"
+  },
+  {
+    "id": 51,
+    "name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Comprehensive SEO data API for SERP, keywords, and backlinks.",
+    "auth_methods": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "primary_auth": "Basic Auth",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.dataforseo.com/v3/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.dataforseo.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "dataforseo",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.dataforseo.com/v3/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.dataforseo.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 52,
+    "name": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "All-in-one SEO and digital marketing platform.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://seranking.com/api.html"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://seranking.com/api and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://seranking.com/api.html",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://seranking.com/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 53,
+    "name": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "SEO toolset for backlink analysis and keyword research.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://ahrefs.com/api/documentation"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://ahrefs.com/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "ahrefs",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://ahrefs.com/api/documentation",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://ahrefs.com/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 54,
+    "name": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Visual web scraper and automated data extraction service.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.mrscraper.com/api-reference/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.mrscraper.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "mrscraper",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.mrscraper.com/api-reference/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.mrscraper.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Cloud platform for web scraping, data extraction, and web RPA.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/apify/actors-mcp-server",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.apify.com/api/v2"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.apify.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "apify",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.apify.com/api/v2",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.apify.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 56,
+    "name": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "API service turning any website into clean LLM-ready markdown.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.firecrawl.dev/api-reference/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing https://firecrawl.dev and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "firecrawl",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.firecrawl.dev/api-reference/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing https://firecrawl.dev and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 57,
+    "name": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Web data platform offering proxy networks and scraping APIs.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.brightdata.com/api-reference/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://brightdata.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "brightdata",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.brightdata.com/api-reference/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://brightdata.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Open-source OSINT CLI tool to hunt usernames across social media.",
+    "auth_methods": [
+      "CLI/Local (No Auth)"
+    ],
+    "primary_auth": "CLI/Local (No Auth)",
+    "access_model": "Open-Source / Local",
+    "api_surface": "SDK/CLI Only",
+    "api_breadth": "Medium",
+    "mcp_status": "Community MCP",
+    "mcp_url": "https://github.com/sherlock-project/sherlock",
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://github.com/sherlock-project/sherlock"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://github.com/sherlock-project/sherlock and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://github.com/sherlock-project/sherlock",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://github.com/sherlock-project/sherlock and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 59,
+    "name": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "B2B data enrichment and company intelligence API.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Enterprise sales contract required for data feed access.",
+    "evidence_urls": [
+      "https://waterfall.io/docs"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://waterfall.io/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://waterfall.io/docs",
+    "blocker_rationale": "Enterprise sales contract required for data feed access.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://waterfall.io/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 60,
+    "name": "Clay",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Data enrichment and automated outreach platform.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://clay.com/docs/api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://clay.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "clay",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://clay.com/docs/api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://clay.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Software development and version control platform using Git.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST + GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/github/github-mcp-server",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.github.com/en/rest"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.github.com/rest and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "github",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.github.com/en/rest",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.github.com/rest and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Frontend cloud platform for developing and deploying web apps.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://vercel.com/docs/rest-api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://vercel.com/docs/rest-api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "vercel",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://vercel.com/docs/rest-api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://vercel.com/docs/rest-api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 63,
+    "name": "Netlify",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Web developer platform for deploying composable web applications.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.netlify.com/api/get-started/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.netlify.com/api and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.netlify.com/api/get-started/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.netlify.com/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 64,
+    "name": "Cloudflare",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Global cloud network providing CDN, DNS, DDoS protection, and serverless compute.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/cloudflare/mcp-server-cloudflare",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.cloudflare.com/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.cloudflare.com/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "cloudflare",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.cloudflare.com/api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.cloudflare.com/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 65,
+    "name": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Open source Firebase alternative providing Postgres, Auth, and Edge Functions.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST + GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://supabase.com/docs/reference/javascript/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://supabase.com/docs and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "supabase",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://supabase.com/docs/reference/javascript/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://supabase.com/docs and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 66,
+    "name": "Neo4j",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Graph database platform for connected data analysis and Cypher queries.",
+    "auth_methods": [
+      "Basic Auth",
+      "Bearer Token"
+    ],
+    "primary_auth": "Basic Auth",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/neo4j-contrib/mcp-neo4j",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://neo4j.com/docs/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://neo4j.com/docs/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "neo4j",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://neo4j.com/docs/api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://neo4j.com/docs/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Cloud data warehouse and analytical compute engine.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.snowflake.com/en/developer-guide/sql-api/intro"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.snowflake.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "snowflake",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.snowflake.com/en/developer-guide/sql-api/intro",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.snowflake.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Fully managed multi-cloud document database platform.",
+    "auth_methods": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://www.mongodb.com/docs/atlas/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://mongodb.com/docs/atlas/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "mongodb",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://www.mongodb.com/docs/atlas/api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://mongodb.com/docs/atlas/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 69,
+    "name": "Datadog",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Observability and security platform for cloud applications.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.datadoghq.com/api/latest/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.datadoghq.com/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "datadog",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.datadoghq.com/api/latest/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.datadoghq.com/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 70,
+    "name": "Sentry",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Application monitoring and error tracking software for developers.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/getsentry/sentry-mcp",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.sentry.io/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.sentry.io/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "sentry",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.sentry.io/api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.sentry.io/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 71,
+    "name": "Notion",
+    "category": "Productivity and Project Management",
+    "one_liner": "Connected workspace for notes, docs, project management, and wikis.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.notion.com/reference/intro"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.notion.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "notion",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.notion.com/reference/intro",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.notion.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 72,
+    "name": "Airtable",
+    "category": "Productivity and Project Management",
+    "one_liner": "Low-code platform for building relational database applications.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://airtable.com/developers/web/api/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://airtable.com/developers and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "airtable",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://airtable.com/developers/web/api/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://airtable.com/developers and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 73,
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "one_liner": "Purpose-built issue tracking tool for modern software teams.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.linear.app/docs/graphql/working-with-the-graphql-api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing https://developers.linear and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "linear",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing https://developers.linear and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "category": "Productivity and Project Management",
+    "one_liner": "Issue and project tracking software developed by Atlassian.",
+    "auth_methods": [
+      "Basic Auth",
+      "OAuth2"
+    ],
+    "primary_auth": "Basic Auth",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.atlassian.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "jira",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.atlassian.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 75,
+    "name": "Asana",
+    "category": "Productivity and Project Management",
+    "one_liner": "Work management platform helping teams orchestrate tasks and projects.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developers.asana.com/reference/rest-api-reference"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developers.asana.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "asana",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developers.asana.com/reference/rest-api-reference",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developers.asana.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "category": "Productivity and Project Management",
+    "one_liner": "Cloud-based Work OS for project and workflow management.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "GraphQL",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.monday.com/api-reference/docs"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.monday.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "monday",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.monday.com/api-reference/docs",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.monday.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 77,
+    "name": "ClickUp",
+    "category": "Productivity and Project Management",
+    "one_liner": "All-in-one productivity platform for tasks, docs, and goals.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://clickup.com/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://clickup.com/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "clickup",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://clickup.com/api/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://clickup.com/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 78,
+    "name": "Coda",
+    "category": "Productivity and Project Management",
+    "one_liner": "All-in-one collaborative doc that brings words, data, and teams together.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://coda.io/developers/apis/v1"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://coda.io/developers and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "coda",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://coda.io/developers/apis/v1",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://coda.io/developers and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 79,
+    "name": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "one_liner": "Enterprise platform for dynamic work and project collaboration.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://smartsheet.redoc.ly/tag/sheets"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://smartsheet.com/developers and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "smartsheet",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://smartsheet.redoc.ly/tag/sheets",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://smartsheet.com/developers and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 80,
+    "name": "Harvest",
+    "category": "Productivity and Project Management",
+    "one_liner": "Online time tracking and invoicing software for businesses.",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://help.getharvest.com/api-v2/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://harvestapp.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "harvest",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://help.getharvest.com/api-v2/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://harvestapp.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "one_liner": "Global financial infrastructure and payment processing platform.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/stripe/agent-toolkit",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.stripe.com/api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://stripe.com/docs/api and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "stripe",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.stripe.com/api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://stripe.com/docs/api and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 82,
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "one_liner": "Financial data network connecting apps to user bank accounts.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "Sandbox keys are instant, but production institution access requires Production Access review and security compliance.",
+    "evidence_urls": [
+      "https://plaid.com/docs/api/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://plaid.com/docs and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "plaid",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://plaid.com/docs/api/",
+    "blocker_rationale": "Sandbox keys are instant, but production institution access requires Production Access review and security compliance.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://plaid.com/docs and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 83,
+    "name": "Binance",
+    "category": "Finance and Fintech",
+    "one_liner": "Cryptocurrency exchange platform for spot, margin, and futures trading.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://binance-docs.github.io/apidocs/spot/en/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://binance-docs.github.io/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://binance-docs.github.io/apidocs/spot/en/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://binance-docs.github.io/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 84,
+    "name": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "one_liner": "Japanese payment gateway service powered by NMI.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Requires formal merchant underwriting and sales contract.",
+    "evidence_urls": [
+      "https://developer.paygent.co.jp/doc/"
+    ],
+    "pass1_notes": "Flagged for human review: Paygent Connect: Japanese payment gateway requiring merchant contract and Japanese business entity underwriting.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.paygent.co.jp/doc/",
+    "blocker_rationale": "Requires formal merchant underwriting and sales contract.",
+    "verification_notes": "Flagged for human review: Paygent Connect: Japanese payment gateway requiring merchant contract and Japanese business entity underwriting.",
+    "verification_status": "Audited & Overridden"
+  },
+  {
+    "id": 85,
+    "name": "iPayX",
+    "category": "Finance and Fintech",
+    "one_liner": "AI-driven bill payment and processing platform.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Commercial contract required; no public developer sandbox.",
+    "evidence_urls": [
+      "https://ipayx.ai/docs"
+    ],
+    "pass1_notes": "Flagged for human review: iPayX: Proprietary healthcare/utility billing platform with closed API portal requiring vendor sales agreement.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://ipayx.ai/docs",
+    "blocker_rationale": "Commercial contract required; no public developer sandbox.",
+    "verification_notes": "Flagged for human review: iPayX: Proprietary healthcare/utility billing platform with closed API portal requiring vendor sales agreement.",
+    "verification_status": "Audited & Overridden"
+  },
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "one_liner": "Accounting software package for small and medium-sized businesses.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Sandbox Self-Serve / Prod Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "Sandbox access is self-serve; production app publishing requires Intuit App Assessment and review.",
+    "evidence_urls": [
+      "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-popular/account"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.intuit.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "quickbooks",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-popular/account",
+    "blocker_rationale": "Sandbox access is self-serve; production app publishing requires Intuit App Assessment and review.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.intuit.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "category": "Finance and Fintech",
+    "one_liner": "Cloud-based accounting software platform for small businesses.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.xero.com/documentation/api/accounting/overview"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.xero.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "xero",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.xero.com/documentation/api/accounting/overview",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.xero.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "category": "Finance and Fintech",
+    "one_liner": "Corporate cards and spend management platform for startups and enterprises.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://developer.brex.com/openapi/"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://developer.brex.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "brex",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://developer.brex.com/openapi/",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://developer.brex.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 89,
+    "name": "Ramp",
+    "category": "Finance and Fintech",
+    "one_liner": "Finance automation platform offering corporate cards and expense management.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.ramp.com/developer-api/rest/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.ramp.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "ramp",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.ramp.com/developer-api/rest/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.ramp.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "one_liner": "Financial data and research platform covering private capital markets.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Institutional research subscription required ($20k+/yr).",
+    "evidence_urls": [
+      "https://pitchbook.com/data/api"
+    ],
+    "pass1_notes": "Flagged for human review: PitchBook: Private capital market research API requiring institutional enterprise contract ($25k+/yr).",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "pitchbook",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://pitchbook.com/data/api",
+    "blocker_rationale": "Institutional research subscription required ($20k+/yr).",
+    "verification_notes": "Flagged for human review: PitchBook: Private capital market research API requiring institutional enterprise contract ($25k+/yr).",
+    "verification_status": "Audited & Overridden"
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Enterprise document grounding via Google Cloud Vertex AI; consumer app has no public API.",
+    "auth_methods": [
+      "OAuth2",
+      "GCP/IAM"
+    ],
+    "primary_auth": "GCP/IAM",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "No Public API",
+    "api_breadth": "Narrow",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Consumer NotebookLM has no public API; enterprise access is gated behind Google Cloud Vertex AI contracts.",
+    "evidence_urls": [
+      "https://cloud.google.com/vertex-ai/docs"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://cloud.google.com/gemini and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "notebook_lm",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://cloud.google.com/vertex-ai/docs",
+    "blocker_rationale": "Consumer NotebookLM has no public API; enterprise access is gated behind Google Cloud Vertex AI contracts.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://cloud.google.com/gemini and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI meeting assistant that records, transcribes, and summarizes conversations.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "Community MCP",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "Direct API access requires Otter Business or Enterprise plan and workspace admin approval.",
+    "evidence_urls": [
+      "https://help.otter.ai/hc/en-us/articles/360052737654-Otter-API"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://help.otter.ai/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://help.otter.ai/hc/en-us/articles/360052737654-Otter-API",
+    "blocker_rationale": "Direct API access requires Otter Business or Enterprise plan and workspace admin approval.",
+    "verification_notes": "Pass 1 baseline profiling referencing http://help.otter.ai/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 93,
+    "name": "Fathom",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI Notetaker that records, transcribes, and summarizes Zoom/Meet calls.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://usefathom.com/api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing https://fathom.video and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "fathom",
+      "managed_oauth": true,
+      "instant_supported": false
+    },
+    "evidence_url": "https://usefathom.com/api",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing https://fathom.video and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 94,
+    "name": "Consensus",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI-powered academic search engine for scientific research papers.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "API is currently waitlist/gated; OAuth integration requested.",
+    "evidence_urls": [
+      "https://consensus.app/search/"
+    ],
+    "pass1_notes": "Flagged for human review: Consensus: AI research paper search engine with private/waitlist OAuth integration.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "consensus",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://consensus.app/search/",
+    "blocker_rationale": "API is currently waitlist/gated; OAuth integration requested.",
+    "verification_notes": "Flagged for human review: Consensus: AI research paper search engine with private/waitlist OAuth integration.",
+    "verification_status": "Audited & Overridden"
+  },
+  {
+    "id": 95,
+    "name": "Reducto",
+    "category": "AI, Research and Media-native",
+    "one_liner": "API service converting complex documents and PDFs into LLM-ready markdown.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.reducto.ai/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://reducto.ai/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.reducto.ai/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://reducto.ai/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 96,
+    "name": "Devin",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Autonomous AI software engineer by Cognition.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "primary_auth": "Bearer Token",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://docs.devin.ai",
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://docs.devin.ai/api-reference/introduction"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://docs.devin.ai/ and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://docs.devin.ai/api-reference/introduction",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://docs.devin.ai/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 97,
+    "name": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI video and media creation platform for creators and developers.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "SDK/CLI Only",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://higgsfield.ai/cli"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://higgsfield.ai/cli and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "higgsfield",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://higgsfield.ai/cli",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://higgsfield.ai/cli and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Command line interface for generating diagrams from Mermaid text.",
+    "auth_methods": [
+      "CLI/Local (No Auth)"
+    ],
+    "primary_auth": "CLI/Local (No Auth)",
+    "access_model": "Open-Source / Local",
+    "api_surface": "SDK/CLI Only",
+    "api_breadth": "Medium",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://github.com/mermaid-js/mermaid-cli"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://github.com/mermaid-js/mermaid-cli and registry indicators.",
+    "in_composio": false,
+    "composio_meta": {
+      "slug": null,
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://github.com/mermaid-js/mermaid-cli",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://github.com/mermaid-js/mermaid-cli and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  },
+  {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Third-party proxy API for fetching YouTube transcripts (transcriptapi.com).",
+    "auth_methods": [
+      "API Key"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Narrow",
+    "mcp_status": "Community MCP",
+    "mcp_url": null,
+    "buildability_tier": "Tier 3: Ops / Review Queue",
+    "buildable_today": false,
+    "main_blocker": "Architecture decision required: wrap unofficial transcriptapi.com scraper vs official Google YouTube Data API v3 Captions.",
+    "evidence_urls": [
+      "https://transcriptapi.com/docs"
+    ],
+    "pass1_notes": "Human Verified: Human Override: Hint points to transcriptapi.com (third-party scraper). For official build, must target YouTube Data API v3 Captions or clarify third-party wrapper status.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "youtube_transcript",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://transcriptapi.com/docs",
+    "blocker_rationale": "Architecture decision required: wrap unofficial transcriptapi.com scraper vs official Google YouTube Data API v3 Captions.",
+    "verification_notes": "Human Verified: Human Override: Hint points to transcriptapi.com (third-party scraper). For official build, must target YouTube Data API v3 Captions or clarify third-party wrapper status.",
+    "verification_status": "Audited & Overridden"
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI meeting recording and customer intelligence workspace.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Paid/Trial",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "https://grain.com/developer"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://grain.com/ and registry indicators.",
+    "in_composio": true,
+    "composio_meta": {
+      "slug": "grain",
+      "managed_oauth": false,
+      "instant_supported": false
+    },
+    "evidence_url": "https://grain.com/developer",
+    "blocker_rationale": "None",
+    "verification_notes": "Pass 1 baseline profiling referencing http://grain.com/ and registry indicators.",
+    "verification_status": "Verified Ground Truth"
+  }
+]

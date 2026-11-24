@@ -1,0 +1,25 @@
+[
+  {
+    "id": 81,
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "one_liner": "Global financial infrastructure and payment processing platform.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Official MCP",
+    "mcp_url": "https://github.com/stripe/agent-toolkit",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "http://stripe.com/docs/api"
+    ],
+    "pass1_notes": "Pass 1 baseline profiling referencing http://stripe.com/docs/api and registry indicators."
+  }
+]

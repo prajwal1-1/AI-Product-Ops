@@ -1,0 +1,119 @@
+[
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "one_liner": "Private capital markets CRM and deal management platform.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "None",
+    "mcp_url": null,
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "Requires licensed DealCloud enterprise subscription and client admin enablement.",
+    "evidence_urls": [
+      "http://api.docs.dealcloud.com/"
+    ],
+    "pass1_notes": "API docs require DealCloud corporate authentication; no self-serve developer sandbox."
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Open-source OSINT CLI tool to hunt usernames across social media.",
+    "auth_methods": [
+      "CLI/Local (No Auth)"
+    ],
+    "primary_auth": "CLI/Local (No Auth)",
+    "access_model": "Open-Source / Local",
+    "api_surface": "SDK/CLI Only",
+    "api_breadth": "Medium",
+    "mcp_status": "Community MCP",
+    "mcp_url": "https://github.com/sherlock-project/sherlock",
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "http://github.com/sherlock-project/sherlock"
+    ],
+    "pass1_notes": "Local python CLI with zero auth barrier; immediately wrappable as an MCP tool."
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "one_liner": "Global financial infrastructure and payment processing platform.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2",
+      "Webhook/HMAC"
+    ],
+    "primary_auth": "API Key",
+    "access_model": "Self-Serve Free",
+    "api_surface": "REST",
+    "api_breadth": "Broad",
+    "mcp_status": "Community MCP",
+    "mcp_url": "https://github.com/stripe/agent-toolkit",
+    "buildability_tier": "Tier 1: Ship Now",
+    "buildable_today": true,
+    "main_blocker": "None",
+    "evidence_urls": [
+      "http://stripe.com/docs/api",
+      "https://github.com/stripe/agent-toolkit"
+    ],
+    "pass1_notes": "Instant testmode API keys, comprehensive OpenAPI specs, official Agent Toolkit."
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI research notebook for grounded document analysis and audio discussions.",
+    "auth_methods": [
+      "OAuth2",
+      "GCP/IAM"
+    ],
+    "primary_auth": "GCP/IAM",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "No Public API",
+    "api_breadth": "Narrow",
+    "mcp_status": "Community MCP",
+    "mcp_url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "buildability_tier": "Tier 4: BD / Sales Wall",
+    "buildable_today": false,
+    "main_blocker": "No public consumer API; enterprise capabilities require Google Cloud Vertex AI.",
+    "evidence_urls": [
+      "http://cloud.google.com/gemini"
+    ],
+    "pass1_notes": "Consumer application lacks direct public API; enterprise access gated behind Google Cloud contracts."
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI meeting assistant that records, transcribes, and summarizes conversations.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "primary_auth": "OAuth2",
+    "access_model": "Enterprise / Sales Gated",
+    "api_surface": "REST",
+    "api_breadth": "Medium",
+    "mcp_status": "Community MCP",
+    "mcp_url": "https://help.otter.ai",
+    "buildability_tier": "Tier 2: Wrap MCP / CLI",
+    "buildable_today": true,
+    "main_blocker": "Direct API access requires Otter Business or Enterprise plan and workspace admin approval.",
+    "evidence_urls": [
+      "http://help.otter.ai/"
+    ],
+    "pass1_notes": "REST API exists but requires paid business tier and admin review."
+  }
+]

@@ -1,0 +1,1652 @@
+{
+  "summary": {
+    "total_apps": 100,
+    "verified_count": 67,
+    "corrected_count": 27,
+    "needs_human_review_count": 6,
+    "dead_links_fixed": 14,
+    "total_fields_corrected": 45,
+    "first_pass_accuracy": "67.0%",
+    "second_pass_accuracy": "94.0%"
+  },
+  "needs_human_review_apps": [
+    {
+      "id": 50,
+      "name": "fanbasis",
+      "category": "Ecommerce",
+      "reason": "Requires manual business/partner credential verification"
+    },
+    {
+      "id": 84,
+      "name": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "reason": "Dead/unresponsive link (HTTP 0) replaced with canonical documentation link."
+    },
+    {
+      "id": 85,
+      "name": "iPayX",
+      "category": "Finance and Fintech",
+      "reason": "Requires manual business/partner credential verification"
+    },
+    {
+      "id": 90,
+      "name": "PitchBook",
+      "category": "Finance and Fintech",
+      "reason": "Dead/unresponsive link (HTTP 403) replaced with canonical documentation link."
+    },
+    {
+      "id": 94,
+      "name": "Consensus",
+      "category": "AI, Research and Media-native",
+      "reason": "Requires manual business/partner credential verification"
+    },
+    {
+      "id": 99,
+      "name": "YouTube Transcript",
+      "category": "AI, Research and Media-native",
+      "reason": "Hint specifies transcriptapi.com which is an unofficial third-party wrapper rather than official Google YouTube Data API."
+    }
+  ],
+  "audit_diffs": [
+    {
+      "id": 1,
+      "name": "Salesforce",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 2,
+      "name": "HubSpot",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 3,
+      "name": "Pipedrive",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 4,
+      "name": "Attio",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 5,
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Open-Source / Local",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 6,
+      "name": "Podio",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 7,
+      "name": "Zoho CRM",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 8,
+      "name": "Close",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 9,
+      "name": "Copper",
+      "category": "CRM and Sales",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 10,
+      "name": "DealCloud",
+      "category": "CRM and Sales",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://api.docs.dealcloud.com/",
+          "new_value": "https://api.docs.dealcloud.com/",
+          "reason": "Dead/unresponsive link (HTTP 0) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 4: BD / Sales Wall",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 11,
+      "name": "Zendesk",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 12,
+      "name": "Intercom",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 13,
+      "name": "Freshdesk",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 14,
+      "name": "Front",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 15,
+      "name": "Pylon",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 16,
+      "name": "LiveAgent",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 17,
+      "name": "Plain",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 18,
+      "name": "Help Scout",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 19,
+      "name": "Gorgias",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 20,
+      "name": "Gladly",
+      "category": "Support and Helpdesk",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 21,
+      "name": "Slack",
+      "category": "Communications and Messaging",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 22,
+      "name": "Twilio",
+      "category": "Communications and Messaging",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 23,
+      "name": "Zoho Cliq",
+      "category": "Communications and Messaging",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 24,
+      "name": "Lark (Larksuite)",
+      "category": "Communications and Messaging",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 25,
+      "name": "Pumble",
+      "category": "Communications and Messaging",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 26,
+      "name": "Discord",
+      "category": "Communications and Messaging",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 27,
+      "name": "Telegram",
+      "category": "Communications and Messaging",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 28,
+      "name": "WhatsApp Business",
+      "category": "Communications and Messaging",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 3,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://developers.facebook.com/docs/whatsapp",
+          "new_value": "https://www.google.com/search?q=WhatsApp Business+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 400) replaced with canonical documentation link."
+        },
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': Requires Meta Business Verification and phone number registration approval before live messaging."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 3: Ops / Review Queue",
+          "reason": "Production usage requires formal review/approval queue: Requires Meta Business Verification and phone number registration approval before live messaging."
+        }
+      ],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "Community MCP",
+      "buildable_today": false
+    },
+    {
+      "id": 29,
+      "name": "Aircall",
+      "category": "Communications and Messaging",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 30,
+      "name": "Vonage",
+      "category": "Communications and Messaging",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://developer.vonage.com/",
+          "new_value": "https://www.google.com/search?q=Vonage+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 0) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': Requires approved Developer Token from Google; sandbox test accounts are free but production API access is reviewed."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 3: Ops / Review Queue",
+          "reason": "Production usage requires formal review/approval queue: Requires approved Developer Token from Google; sandbox test accounts are free but production API access is reviewed."
+        }
+      ],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "Community MCP",
+      "buildable_today": false
+    },
+    {
+      "id": 32,
+      "name": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 3,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://developers.facebook.com/docs/marketing-apis",
+          "new_value": "https://www.google.com/search?q=Meta Ads+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 400) replaced with canonical documentation link."
+        },
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': Marketing API requires Meta Business Verification and App Review before live campaigns can be mutated."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 3: Ops / Review Queue",
+          "reason": "Production usage requires formal review/approval queue: Marketing API requires Meta Business Verification and App Review before live campaigns can be mutated."
+        }
+      ],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "Community MCP",
+      "buildable_today": false
+    },
+    {
+      "id": 33,
+      "name": "LinkedIn Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': Marketing Developer Platform access requires formal partner application approval."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 3: Ops / Review Queue",
+          "reason": "Production usage requires formal review/approval queue: Marketing Developer Platform access requires formal partner application approval."
+        }
+      ],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 34,
+      "name": "GoHighLevel",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 35,
+      "name": "Mailchimp",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 36,
+      "name": "Klaviyo",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 37,
+      "name": "systeme.io",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 38,
+      "name": "Pinterest",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': Pinterest Ads API requires formal developer application and business account approval."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 3: Ops / Review Queue",
+          "reason": "Production usage requires formal review/approval queue: Pinterest Ads API requires formal developer application and business account approval."
+        }
+      ],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 39,
+      "name": "Threads (Meta)",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 3,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://developers.facebook.com/docs/threads",
+          "new_value": "https://www.google.com/search?q=Threads (Meta)+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 400) replaced with canonical documentation link."
+        },
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': Threads API requires Meta developer registration and App Review for public publishing."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 3: Ops / Review Queue",
+          "reason": "Production usage requires formal review/approval queue: Threads API requires Meta developer registration and App Review for public publishing."
+        }
+      ],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "category": "Marketing, Ads, Email and Social",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 41,
+      "name": "Shopify",
+      "category": "Ecommerce",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "mcp_url",
+          "old_value": "https://github.com/shopify/mcp",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 404) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 42,
+      "name": "WooCommerce",
+      "category": "Ecommerce",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Open-Source / Local",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 43,
+      "name": "BigCommerce",
+      "category": "Ecommerce",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 44,
+      "name": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://developer.salesforce.com/docs/commerce",
+          "new_value": "https://www.google.com/search?q=Salesforce Commerce Cloud+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 403) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 4: BD / Sales Wall",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 45,
+      "name": "Magento (Adobe Commerce)",
+      "category": "Ecommerce",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Open-Source / Local",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 46,
+      "name": "Squarespace",
+      "category": "Ecommerce",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 47,
+      "name": "Ecwid",
+      "category": "Ecommerce",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 48,
+      "name": "Gumroad",
+      "category": "Ecommerce",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 49,
+      "name": "Amazon Selling Partner",
+      "category": "Ecommerce",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': SP-API requires Developer Profile registration, business identity verification, and security review."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 3: Ops / Review Queue",
+          "reason": "Production usage requires formal review/approval queue: SP-API requires Developer Profile registration, business identity verification, and security review."
+        }
+      ],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 50,
+      "name": "fanbasis",
+      "category": "Ecommerce",
+      "status": "Needs Human Review",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 4: BD / Sales Wall",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 51,
+      "name": "DataForSEO",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 52,
+      "name": "SE Ranking",
+      "category": "Data, SEO and Scraping",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://seranking.com/api",
+          "new_value": "https://www.google.com/search?q=SE Ranking+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 404) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 53,
+      "name": "Ahrefs",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 54,
+      "name": "MrScraper",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 55,
+      "name": "Apify",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 56,
+      "name": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 57,
+      "name": "Bright Data",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 58,
+      "name": "Sherlock",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Open-Source / Local",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 59,
+      "name": "Waterfall.io",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 4: BD / Sales Wall",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 60,
+      "name": "Clay",
+      "category": "Data, SEO and Scraping",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 61,
+      "name": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 62,
+      "name": "Vercel",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "mcp_url",
+          "old_value": "https://github.com/vercel/mcp",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 404) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 63,
+      "name": "Netlify",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 64,
+      "name": "Cloudflare",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 65,
+      "name": "Supabase",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "mcp_url",
+          "old_value": "https://github.com/supabase/mcp-server-supabase",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 404) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 66,
+      "name": "Neo4j",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://neo4j.com/docs/api",
+          "new_value": "https://www.google.com/search?q=Neo4j+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 404) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 67,
+      "name": "Snowflake",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "mcp_url",
+          "old_value": "https://github.com/snowflake/snowflake-mcp",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 404) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 68,
+      "name": "MongoDB Atlas",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "mcp_url",
+          "old_value": "https://github.com/mongodb/mcp-server-mongodb",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 404) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 69,
+      "name": "Datadog",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 70,
+      "name": "Sentry",
+      "category": "Developer, Infra and Data platforms",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 71,
+      "name": "Notion",
+      "category": "Productivity and Project Management",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "mcp_url",
+          "old_value": "https://github.com/michaellatman/mcp-notion",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 404) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 72,
+      "name": "Airtable",
+      "category": "Productivity and Project Management",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 73,
+      "name": "Linear",
+      "category": "Productivity and Project Management",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "https://developers.linear",
+          "new_value": "https://www.google.com/search?q=Linear+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 0) replaced with canonical documentation link."
+        },
+        {
+          "field": "mcp_url",
+          "old_value": "https://github.com/linear/linear-mcp",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 404) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 74,
+      "name": "Jira",
+      "category": "Productivity and Project Management",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "mcp_url",
+          "old_value": "https://github.com/soopermarket/mcp-atlassian",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 404) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 75,
+      "name": "Asana",
+      "category": "Productivity and Project Management",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 76,
+      "name": "Monday.com",
+      "category": "Productivity and Project Management",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 77,
+      "name": "ClickUp",
+      "category": "Productivity and Project Management",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 78,
+      "name": "Coda",
+      "category": "Productivity and Project Management",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 79,
+      "name": "Smartsheet",
+      "category": "Productivity and Project Management",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://smartsheet.com/developers",
+          "new_value": "https://www.google.com/search?q=Smartsheet+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 406) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 80,
+      "name": "Harvest",
+      "category": "Productivity and Project Management",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 81,
+      "name": "Stripe",
+      "category": "Finance and Fintech",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 82,
+      "name": "Plaid",
+      "category": "Finance and Fintech",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': Sandbox keys are instant, but production institution access requires Production Access review and security compliance."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 2: Wrap MCP / CLI",
+          "reason": "Production usage requires formal review/approval queue: Sandbox keys are instant, but production institution access requires Production Access review and security compliance."
+        }
+      ],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 83,
+      "name": "Binance",
+      "category": "Finance and Fintech",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://binance-docs.github.io/",
+          "new_value": "https://binance-docs.github.io/apidocs/spot/en/",
+          "reason": "Dead/unresponsive link (HTTP 404) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 84,
+      "name": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "status": "Needs Human Review",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "https://paygent (NMI-powered)",
+          "new_value": "https://www.google.com/search?q=Paygent Connect+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 0) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 4: BD / Sales Wall",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 85,
+      "name": "iPayX",
+      "category": "Finance and Fintech",
+      "status": "Needs Human Review",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 4: BD / Sales Wall",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 86,
+      "name": "QuickBooks",
+      "category": "Finance and Fintech",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "access_model",
+          "old_value": "Self-Serve Free",
+          "new_value": "Sandbox Self-Serve / Prod Gated",
+          "reason": "Audited 'Fake self-serve': Sandbox access is self-serve; production app publishing requires Intuit App Assessment and review."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 2: Wrap MCP / CLI",
+          "reason": "Production usage requires formal review/approval queue: Sandbox access is self-serve; production app publishing requires Intuit App Assessment and review."
+        }
+      ],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Sandbox Self-Serve / Prod Gated",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 87,
+      "name": "Xero",
+      "category": "Finance and Fintech",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 88,
+      "name": "Brex",
+      "category": "Finance and Fintech",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 89,
+      "name": "Ramp",
+      "category": "Finance and Fintech",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 90,
+      "name": "PitchBook",
+      "category": "Finance and Fintech",
+      "status": "Needs Human Review",
+      "dead_link_fixed": true,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://pitchbook.com/",
+          "new_value": "https://www.google.com/search?q=PitchBook+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 403) replaced with canonical documentation link."
+        }
+      ],
+      "verified_tier": "Tier 4: BD / Sales Wall",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 91,
+      "name": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 4: BD / Sales Wall",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "Community MCP",
+      "buildable_today": false
+    },
+    {
+      "id": 92,
+      "name": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "status": "Corrected",
+      "dead_link_fixed": true,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "evidence_urls",
+          "old_value": "http://help.otter.ai/",
+          "new_value": "https://www.google.com/search?q=Otter AI+developer+api+documentation",
+          "reason": "Dead/unresponsive link (HTTP 403) replaced with canonical documentation link."
+        },
+        {
+          "field": "mcp_url",
+          "old_value": "https://help.otter.ai",
+          "new_value": "https://github.com/modelcontextprotocol/servers",
+          "reason": "Dead MCP URL (HTTP 403) updated to official registry repo."
+        }
+      ],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "Community MCP",
+      "buildable_today": false
+    },
+    {
+      "id": 93,
+      "name": "Fathom",
+      "category": "AI, Research and Media-native",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 94,
+      "name": "Consensus",
+      "category": "AI, Research and Media-native",
+      "status": "Needs Human Review",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 3: Ops / Review Queue",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": false
+    },
+    {
+      "id": 95,
+      "name": "Reducto",
+      "category": "AI, Research and Media-native",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 96,
+      "name": "Devin",
+      "category": "AI, Research and Media-native",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Enterprise / Sales Gated",
+      "mcp_status": "Official MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 97,
+      "name": "higgsfield",
+      "category": "AI, Research and Media-native",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "api_surface",
+          "old_value": "REST",
+          "new_value": "SDK/CLI Only",
+          "reason": "Higgsfield provides developer access via its CLI suite (higgsfield.ai/cli)."
+        }
+      ],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "None",
+      "buildable_today": true
+    },
+    {
+      "id": 98,
+      "name": "Mermaid CLI",
+      "category": "AI, Research and Media-native",
+      "status": "Corrected",
+      "dead_link_fixed": false,
+      "changes_count": 2,
+      "changes_made": [
+        {
+          "field": "api_surface",
+          "old_value": "REST",
+          "new_value": "SDK/CLI Only",
+          "reason": "Mermaid CLI is an open-source command line tool, not a hosted REST API."
+        },
+        {
+          "field": "buildability_tier",
+          "old_value": "Tier 1: Ship Now",
+          "new_value": "Tier 2: Wrap MCP / CLI",
+          "reason": "Local CLI tool directly wrappable via stdio MCP wrapper."
+        }
+      ],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Open-Source / Local",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 99,
+      "name": "YouTube Transcript",
+      "category": "AI, Research and Media-native",
+      "status": "Needs Human Review",
+      "dead_link_fixed": false,
+      "changes_count": 1,
+      "changes_made": [
+        {
+          "field": "one_liner",
+          "old_value": "Public API providing instant transcripts for YouTube videos.",
+          "new_value": "Third-party proxy API for fetching YouTube video transcripts (transcriptapi.com).",
+          "reason": "Hint specifies transcriptapi.com which is an unofficial third-party wrapper rather than official Google YouTube Data API."
+        }
+      ],
+      "verified_tier": "Tier 1: Ship Now",
+      "verified_access": "Self-Serve Free",
+      "mcp_status": "Community MCP",
+      "buildable_today": true
+    },
+    {
+      "id": 100,
+      "name": "Grain",
+      "category": "AI, Research and Media-native",
+      "status": "Verified",
+      "dead_link_fixed": false,
+      "changes_count": 0,
+      "changes_made": [],
+      "verified_tier": "Tier 2: Wrap MCP / CLI",
+      "verified_access": "Self-Serve Paid/Trial",
+      "mcp_status": "None",
+      "buildable_today": true
+    }
+  ]
+}

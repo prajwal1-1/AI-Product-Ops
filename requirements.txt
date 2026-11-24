@@ -1,0 +1,11 @@
+google-genai
+composio
+pydantic
+httpx
+beautifulsoup4
+python-dotenv
+tqdm
+rich
+browser-use==1.0.8
+firecrawl-py
+playwright
