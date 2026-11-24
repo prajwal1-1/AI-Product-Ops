@@ -4,3 +4,5 @@ scripts/
 __pycache__/
 data/cache/
 .git/
+requirements.txt
+skills-lock.json
