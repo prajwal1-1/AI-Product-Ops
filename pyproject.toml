@@ -1,0 +1,8 @@
+[project]
+name = "ai-product-ops"
+version = "1.0.0"
+description = "100-App Agent Toolkit Feasibility Study for Composio Product Ops"
+requires-python = ">=3.10"
+
+[tool.vercel]
+entrypoint = "index:app"
