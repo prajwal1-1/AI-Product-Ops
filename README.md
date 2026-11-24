@@ -116,8 +116,8 @@ The research engine combines LLM extraction, deterministic registry cross-refere
 
 ```bash
 # Clone the repository
-git clone https://github.com/[YOUR_GITHUB_HANDLE]/[YOUR_REPO_NAME].git
-cd [YOUR_REPO_NAME]
+git clone https://github.com/prajwal1-1/composio-100-app-research.git
+cd composio-100-app-research
 
 # Create and activate virtual environment
 python -m venv .venv
