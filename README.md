@@ -2,7 +2,7 @@
 
 > **Composio Product Ops Research**: Automated Research, Deterministic Verification Loops, and Buildability Triage across 100 Enterprise SaaS & Developer Applications.
 
-[![Live Case Study](https://img.shields.io/badge/Live_Case_Study-Obsidian_%26_Gold_Report-C9A86A?style=for-the-badge)](https://ai-product-kfzgtiy2w-prajwal1-1.vercel.app/)
+[![Live Case Study](https://img.shields.io/badge/Live_Case_Study-Obsidian_%26_Gold_Report-C9A86A?style=for-the-badge)](https://ai-product-ops.vercel.app/)
 [![Audited Apps](https://img.shields.io/badge/Audited_Apps-100%20Platforms-111113?style=for-the-badge&logo=target)](data.json)
 [![Buildable Today](https://img.shields.io/badge/Buildable_Today-81%25-FFFFFF?style=for-the-badge)](data.json)
 [![Verified Accuracy](https://img.shields.io/badge/Verified_Accuracy-100.0%25-C9A86A?style=for-the-badge)](data/human_audit_sample.csv)
@@ -17,7 +17,7 @@ Before building an AI agent toolkit, Model Context Protocol (MCP) server, or OAu
 This repository contains the end-to-end research pipeline, verification harness, and executive microsite evaluating 100 top SaaS, cloud, marketing, finance, and developer integrations.
 
 ### Key Deliverables:
-- **[Live Case Study Microsite](https://ai-product-kfzgtiy2w-prajwal1-1.vercel.app/)**: A self-contained, museum-grade Swiss-editorial case study (`index.html`) featuring interactive Apache ECharts Sankey flows, category heatmaps, real Simple Icons monograms, and an instant-filter 100-app matrix.
+- **[Live Case Study Microsite](https://ai-product-ops.vercel.app/)**: A self-contained, museum-grade Swiss-editorial case study (`index.html`) featuring interactive Apache ECharts Sankey flows, category heatmaps, real Simple Icons monograms, and an instant-filter 100-app matrix.
 - **[Standardized Agent Layer (`llms.txt`)](llms.txt)**: llms.txt v2 manifest exposing raw architecture, macro takeaways, and schema structures for LLMs and autonomous agents.
 - **[Verified Dataset (`data.json`)](data.json)**: Normalized, machine-consumable JSON schema covering all 100 audited applications with canonical developer documentation URLs, auth models, and Composio toolkit mappings.
 
