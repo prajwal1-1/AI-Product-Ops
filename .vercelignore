@@ -1,10 +1,7 @@
-*.py
-**/*.py
-scripts/
-requirements.txt
 .venv/
 venv/
 __pycache__/
+scripts/
 data/cache/
 .git/
 .env
