@@ -160,7 +160,7 @@ def build():
     })
 
     html = f"""<!DOCTYPE html>
-<html lang="en" class="scroll-smooth bg-[#09090B] text-[#FFFFFF] overflow-x-hidden">
+<html lang="en" class="bg-[#09090B] text-[#FFFFFF] overflow-x-hidden">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
@@ -172,11 +172,12 @@ def build():
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   
   <!-- Libraries (CDNs) -->
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
   <script src="https://unpkg.com/roughjs@latest/bundled/rough.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   
@@ -205,6 +206,23 @@ def build():
       overflow-x: hidden;
       margin: 0;
       padding: 0;
+    }}
+
+    /* Lenis Smooth Scroll Core */
+    html.lenis, html.lenis body {{
+      height: auto;
+    }}
+    .lenis.lenis-smooth {{
+      scroll-behavior: auto !important;
+    }}
+    .lenis.lenis-smooth [data-lenis-prevent] {{
+      overscroll-behavior: contain;
+    }}
+    .lenis.lenis-stopped {{
+      overflow: hidden;
+    }}
+    .lenis.lenis-smooth iframe {{
+      pointer-events: none;
     }}
 
     canvas {{
@@ -930,7 +948,7 @@ def build():
           <i data-lucide="github" class="w-3 h-3 stroke-[1.5]"></i>
           <span>GitHub</span>
         </a>
-        <button onclick="window.scrollTo({{top: 0, behavior: 'smooth'}})" class="hover:text-[#FFFFFF]">Top ↑</button>
+        <button onclick="if(window.lenis) {{ lenis.scrollTo(0, {{ duration: 1.2 }}); }} else {{ window.scrollTo({{top: 0, behavior: 'smooth'}}); }}" class="hover:text-[#FFFFFF]">Top ↑</button>
       </div>
     </div>
   </footer>
@@ -964,19 +982,50 @@ def build():
     let filteredApps = [...RAW_APPS];
     const expandedRowIds = new Set();
 
-    // Initialize Lenis Smooth Scroll
+    // Initialize Award-Winning Lenis Smooth Scroll (v1.1.18)
     let lenis;
     try {{
       lenis = new Lenis({{
-        duration: 0.9,
+        duration: 1.25,
         easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+        orientation: 'vertical',
+        gestureOrientation: 'vertical',
         smoothWheel: true,
+        wheelMultiplier: 1.05,
+        touchMultiplier: 1.8,
+        infinite: false,
       }});
-      function raf(time) {{
-        lenis.raf(time);
+      window.lenis = lenis;
+
+      // Sync Lenis with GSAP ScrollTrigger
+      if (typeof ScrollTrigger !== 'undefined') {{
+        lenis.on('scroll', ScrollTrigger.update);
+      }}
+
+      // Drive Lenis directly via GSAP ticker for zero-jitter rendering
+      if (typeof gsap !== 'undefined') {{
+        gsap.ticker.add((time) => {{
+          lenis.raf(time * 1000);
+        }});
+        gsap.ticker.lagSmoothing(0);
+      }} else {{
+        function raf(time) {{
+          lenis.raf(time);
+          requestAnimationFrame(raf);
+        }}
         requestAnimationFrame(raf);
       }}
-      requestAnimationFrame(raf);
+
+      // Smooth scroll navigation for all in-page anchors
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {{
+        anchor.addEventListener('click', function(e) {{
+          const href = this.getAttribute('href');
+          if (href && href !== '#' && document.querySelector(href)) {{
+            e.preventDefault();
+            lenis.scrollTo(href, {{ offset: -60, duration: 1.2 }});
+          }}
+        }});
+      }});
     }} catch(e) {{
       console.warn('Lenis could not be initialized:', e);
     }}
@@ -1241,9 +1290,11 @@ def build():
     function filterByTier(tierName) {{
       document.getElementById("filter-tier").value = tierName;
       applyFilters();
-      const el = document.getElementById("matrix");
-      if (el) {{
-        el.scrollIntoView({{ behavior: "smooth" }});
+      if (window.lenis) {{
+        lenis.scrollTo('#matrix', {{ offset: -60, duration: 1.0 }});
+      }} else {{
+        const el = document.getElementById("matrix");
+        if (el) el.scrollIntoView({{ behavior: "smooth" }});
       }}
     }}
     window.filterByTier = filterByTier;
@@ -1251,9 +1302,11 @@ def build():
     function filterByCategory(catName) {{
       document.getElementById("filter-category").value = catName;
       applyFilters();
-      const el = document.getElementById("matrix");
-      if (el) {{
-        el.scrollIntoView({{ behavior: "smooth" }});
+      if (window.lenis) {{
+        lenis.scrollTo('#matrix', {{ offset: -60, duration: 1.0 }});
+      }} else {{
+        const el = document.getElementById("matrix");
+        if (el) el.scrollIntoView({{ behavior: "smooth" }});
       }}
     }}
     window.filterByCategory = filterByCategory;
